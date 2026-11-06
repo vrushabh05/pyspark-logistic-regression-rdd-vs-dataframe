@@ -1,0 +1,26 @@
+{
+  "as_in_assignment": {
+    "RDD SGD, raw features, 75/25": {
+      "train": 0.9041,
+      "test": 0.9084
+    },
+    "DataFrame L-BFGS, standardised, 80/20": {
+      "train": 1.0,
+      "test": 0.9368
+    }
+  },
+  "controlled_80_20": {
+    "RDD SGD, raw features": {
+      "train": 0.8959,
+      "test": 0.9074
+    },
+    "RDD SGD, standardised": {
+      "train": 0.961,
+      "test": 0.9722
+    },
+    "DataFrame L-BFGS, standardised": {
+      "train": 1.0,
+      "test": 0.9368
+    }
+  }
+}
